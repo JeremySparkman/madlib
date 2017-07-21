@@ -108,12 +108,15 @@ button:active {
     font-size: 20px;
   }
   a {
-    font-size: 16px;
+    font-size: 15px;
   }
   input {
     font-size: 15px;
   }
   ul {
     text-align: center;
+  }
+  button {
+    font-size: 16px;
   }
 }
