@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app='madLib' lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Roboto+Condensed|Shadows+Into+Light+Two" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  
+  <ul>
+    <li><a href="#!/input">The Generator</a></li>
+    <li><a href="#!/display">The Famous Quote</a></li>
+  </ul>
+
+    <ng-view></ng-view>
+
+</div>
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script>
+  <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+  <script src="js/app/module.js"></script>
+  <script src="js/app/config.js"></script>
+  <script src="js/services/storyService.js"></script>
+  <script src="js/controllers/displayController.js"></script>
+  <script src="js/controllers/inputController.js"></script>
+</body>
+</html>
