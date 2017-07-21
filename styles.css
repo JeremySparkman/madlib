@@ -81,42 +81,37 @@ button:active {
   background-color: black;
 }
 @media only screen and (max-width: 1200px){
-  a{
-    font-size: 30px;
-  }
-  input {
-    font-size: 15px;
-  }
-
-}
-@media only screen and (max-width: 960px){
-  a {
-    font-size: 15px;
-  }
-  p {
-    font-size: 20px;
-  }
-
-@media only screen and (max-width: 600px){
   .wrapper {
     grid-template: none;
   }
   a{
-    font-size: 12px;
+    font-size: 38px;
   }
   input {
     margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
+  p {
+    font-size: 40px;
+  }
+  ul {
+    text-align: center;
+  }
+  button {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
   p {
     font-size: 20px;
   }
-  button {
-    display: block;
-    font-size: 10px;
-    margin: 0 auto;
+  a {
+    font-size: 16px;
+  }
+  input {
+    font-size: 15px;
   }
   ul {
     text-align: center;
